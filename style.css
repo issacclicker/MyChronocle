@@ -185,3 +185,23 @@ a:hover{ text-decoration:underline; }
   padding:24px 0 40px;
   border-top:1px solid var(--line);
 }
+
+.project.card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.project-img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line);
+}
+
+.project-content {
+  padding: 16px;
+}
+
+
+/*# sourceMappingURL=style.css.map */

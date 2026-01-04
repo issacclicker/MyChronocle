@@ -20,6 +20,10 @@ document.getElementById("themeToggle")?.addEventListener("click", () => {
   setTheme(isLight ? "dark" : "light");
 });
 
+document.getElementById("resumeBtn")?.addEventListener("click", () => {
+  alert("이력서는 아직 준비중입니다.");
+});
+
 document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("updated").textContent = new Date().toISOString().slice(0, 10);
 

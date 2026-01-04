@@ -9,7 +9,7 @@
 </head>
 <body>
   <header class="container header">
-    <a class="brand" href="#top">주한성</a>
+    <a class="brand" href="#top" style="padding-left: 10px;">주한성</a>
 
     <nav class="nav">
       <a href="#about">소개</a>
@@ -29,7 +29,7 @@
 
         <div class="cta-row">
           <a class="btn primary" href="#projects">프로젝트 보기</a>
-          <!-- <a class="btn" href="resume.pdf" target="_blank" rel="noopener">이력서 PDF</a> -->
+          <button class="btn" id="resumeBtn">이력서 PDF</button>
         </div>
 
         <ul class="meta">
@@ -42,9 +42,9 @@
       <div class="card">
         <h2 class="card-title">요약</h2>
         <ul class="bullets">
-          <li>대규모 트래픽 서비스에서 API 성능 개선/장애 대응 경험</li>
-          <li>데이터 파이프라인/배치 최적화로 비용 절감 및 품질 개선</li>
-          <li>문서화/자동화로 팀 생산성 향상</li>
+          <li>다양한 개발 분야 접함으로써 손 쓸 수 있는 범위 넓음</li>
+          <li>프로그래밍과 스토리텔링 능력에서 나오는 탁월한 기획</li>
+          <li>여러가지 리더십/팀 활동을 통한 팀 리딩 및 생산성 향상</li>
         </ul>
       </div>
     </section>
@@ -52,8 +52,7 @@
     <section id="about" class="section">
       <h2>소개</h2>
       <p>
-        저는 사용자 문제를 빠르게 정의하고, 측정 가능한 개선으로 연결하는 개발자입니다.
-        서비스 성능/안정성, 데이터 품질, 운영 효율을 함께 봅니다.
+        저는 다양한 방면에서 활약할 수 있으며, 프로그래밍과 기획이 동시에 가능하며, 또한 훌륭한 리더십 자질을 갖춘 개발자입니다. 언제든지 팀 효율 향상을 위해 열정적으로 임합니다.
       </p>
     </section>
 
@@ -62,25 +61,28 @@
 
       <article class="item">
         <div class="item-head">
-          <h3>ABC Corp · Backend Engineer</h3>
-          <span class="muted">2023.03 – 현재 · 서울</span>
+          <h3>숭실대학교 - AI소프트웨어학부(前소프트웨어학부)</h3>
+          <span class="muted">2024.03 – 현재 · 학부생</span>
         </div>
         <ul class="bullets">
-          <li>결제 API p95 800ms → 250ms로 개선(쿼리 튜닝/캐싱/비동기 처리)</li>
-          <li>장애 대응 프로세스 정립: Runbook + 알림/대시보드 개선으로 MTTR 35% 감소</li>
-          <li>기술스택: Java, Spring, PostgreSQL, Redis, Kubernetes</li>
+          <li>제10대 소프트웨어학부 부학생회장 및 제18대 IT대학 운영위원회</li>
+          <li>2025 소프트웨어학부 홈커밍 데이 총괄</li>
+          <li>소프트웨어학부 알고리즘 소모임 솔브드 초대 회장</li>
+          <li>2025 GAMMARU GAMEJAM 최우수상</li>
+          <li>2024 지능형 로봇 컨소시엄 창의융합캠프 은상</li>
+          <li>『이야기꾼, 책사』 출판</li>
         </ul>
       </article>
 
       <article class="item">
         <div class="item-head">
-          <h3>XYZ Inc · Software Engineer</h3>
-          <span class="muted">2021.01 – 2023.02 · 원격</span>
+          <h3>서울금융고등학교 · 소프트웨어과</h3>
+          <span class="muted">2021.03 – 2024.01 · 고등학생</span>
         </div>
         <ul class="bullets">
-          <li>데이터 적재 파이프라인 재구축으로 일 배치 비용 20% 절감</li>
-          <li>테스트/CI 도입으로 릴리즈 실패율 감소</li>
-          <li>기술스택: Python, Airflow, BigQuery, GitHub Actions</li>
+          <li>Koscom 주관 미래 인재 양성 교육 5회 참여(언리얼 엔진,유니티 엔진,풀스택,네트워크 개발,정보보안)</li>
+          <li>제39회 용산도서관 창작시 공모전 우수상 (두텁바우 제33집 발간)</li>
+          <li>『시팔세 시인』 출판</li>
         </ul>
       </article>
     </section>
@@ -90,38 +92,34 @@
 
       <div class="grid">
         <article class="card project">
-          <h3>Project A</h3>
-          <p class="muted">문제: 검색 응답이 느림 → 해결: 인덱싱/캐시 설계</p>
-          <ul class="tags">
-            <li>Spring</li><li>Redis</li><li>PostgreSQL</li>
-          </ul>
-          <div class="links">
-            <a href="https://github.com/username/project-a" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://demo.example.com" target="_blank" rel="noopener">Demo</a>
+          <img class="project-img" src="./ProjectA.png" alt="Project A" />
+          <div class="project-content">
+            <h3>감금학과대학원</h3>
+            <p class="muted">탈출하는 대학원생을 막는 게임</p>
+            <ul class="tags">
+              <li>Unity C#</li><li>3D</li><li>액션</li><li>병맛</li>
+            </ul>
+            <div class="links">
+              <a href="https://github.com/issacclicker/PrisonCollege" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://demo.example.com" target="_blank" rel="noopener">Demo</a>
+            </div>
           </div>
         </article>
 
         <article class="card project">
-          <h3>Project B</h3>
-          <p class="muted">문제: 운영 지표 가시성 부족 → 해결: 대시보드/알림 표준화</p>
-          <ul class="tags">
-            <li>Grafana</li><li>Prometheus</li><li>K8s</li>
-          </ul>
-          <div class="links">
-            <a href="https://github.com/username/project-b" target="_blank" rel="noopener">GitHub</a>
+          <img class="project-img" src="./ProjectB.PNG" alt="Project B" />
+          <div class="project-content">
+            <h3>Project ARCANA</h3>
+            <p class="muted">타로카드의 운명에 맞서 나가는 게임</p>
+            <ul class="tags">
+              <li>Unity C#</li><li>2D</li><li>액션</li><li>보스파이트</li>
+            </ul>
+            <div class="links">
+              <a href="https://github.com/issacclicker/ProjectARCANA" target="_blank" rel="noopener">GitHub</a>
+            </div>
           </div>
         </article>
 
-        <article class="card project">
-          <h3>Project C</h3>
-          <p class="muted">문제: 데이터 품질 이슈 → 해결: 검증 규칙/테스트 자동화</p>
-          <ul class="tags">
-            <li>Python</li><li>dbt</li><li>BigQuery</li>
-          </ul>
-          <div class="links">
-            <a href="https://github.com/username/project-c" target="_blank" rel="noopener">GitHub</a>
-          </div>
-        </article>
       </div>
     </section>
 
@@ -129,18 +127,18 @@
       <h2>기술</h2>
       <div class="grid two">
         <div class="card">
-          <h3>Backend</h3>
+          <h3>Programming</h3>
           <ul class="bullets">
-            <li>Java/Spring, Python/FastAPI</li>
-            <li>REST, 인증/인가, 비동기 처리</li>
+            <li><Strong>Unity C#</Strong> : 2D, 3D, Network</li>
+            <li>Etcs : C, C++, Python, JAVA</li>
           </ul>
         </div>
         <div class="card">
-          <h3>Data/Infra</h3>
+          <h3>Design</h3>
           <ul class="bullets">
-            <li>PostgreSQL, Redis</li>
-            <li>Kubernetes, Docker, CI/CD</li>
-            <li>Observability(Grafana/Prometheus)</li>
+            <li><Strong>Specialty</Strong> : Story, Level Design, UX/UI Desgin </li>
+            <li>Designs with consulting Programming</li>
+            <li>Efficient Benefit Model</li>
           </ul>
         </div>
       </div>
@@ -148,11 +146,12 @@
 
     <section id="contact" class="section">
       <h2>연락</h2>
-      <p>가장 빠른 연락: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>빠른 응답1 : <a href="0712wn@gmail.com">0712wn@gmail.com</a></p>
+      <p>빠른 응답2 : <a href="https://www.instagram.com/issacclicker/?hl=ko">@issacclicker</a></p>
     </section>
 
     <footer class="footer">
-      <span class="muted">© <span id="year"></span> 홍길동 · Last updated: <span id="updated"></span></span>
+      <span class="muted">© <span id="year"></span> 주한성 · Last updated: <span id="updated"></span></span>
     </footer>
   </main>
 
